@@ -179,9 +179,9 @@ video {
     width: 75%;
     height: 75%;
 }
-.audiopage {
+/*.audiopage {
 background:#3b+89a;
-}
+}*/
 .videoplayer {
 	width:480px;
 	height:270px;
@@ -207,7 +207,9 @@ caption {caption-side: top;
 		 }
 /*td,th { border: 1px solid #40407A; padding: 0.5em;}*/
 /*BORDER COLOR*/
-td,th { border: 1px solid silver; padding: 0.5em;font-weight:bold;font:SEGOE PRINT;font-family:Cursive,"Brush Script MT"; text-transform: uppercase;}
+
+td,th { border: 1px solid silver; padding: 0.5em;font-weight:bold;font-family:Cursive,"Brush Script MT",comic sans ms,lucida handwriting;text-transform: uppercase; }
+
 tbody td{text-align: center; }
 tr:nth-of-type(even) { background-color:#77738b; } 
 tr:nth-of-type(odd) { background-color:#b7b5c1; } 
