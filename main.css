@@ -210,7 +210,7 @@ caption {caption-side: top;
 /*td,th { border: 1px solid #40407A; padding: 0.5em;}*/
 /*BORDER COLOR*/
 
-td,th { border: 1px solid silver; padding: 0.5em;font-weight:bold;font-family:Cursive,"Brush Script MT",comic sans ms,lucida handwriting;text-transform: uppercase; }
+td,th { border: 1px solid silver; padding: 0.5em;font-weight:bold;font-family:Cursive,Comic Sans MS,Trebuchet MS;text-transform: uppercase; }
 
 tbody td{text-align: center; }
 tr:nth-of-type(even) { background-color:#77738b; } 
