@@ -210,7 +210,7 @@ caption {caption-side: top;
 /*td,th { border: 1px solid #40407A; padding: 0.5em;}*/
 /*BORDER COLOR*/
 
-td,th { border: 1px solid silver; padding: 0.5em;color:#000000;font-weight:bold;text-transform: uppercase; }
+td,th { border: 1px solid silver; padding: 0.5em;color:#000000;font-weight:bold;text-transform: uppercase; font-family:Bradley Hand Bold, cursive}
 
 tbody td{text-align: center; }
 tr:nth-of-type(even) { background-color:#77738b; } 
@@ -317,7 +317,7 @@ footer p {
 		padding-left: 5%; 
 		text-align:center;
 		font:120%;
-		font-family:Cursive,TIME;
+		
 		
 	}
 	
@@ -343,7 +343,7 @@ footer p {
     #specialTable tr td:first-child {
 		font-weight: bold;
 		font-size:100%;
-		font-family:Cursive,TIME;
+		
 	}
 	section h1 {
 	    font-size: 1.5em;
@@ -378,6 +378,7 @@ section{100%;}
 		font-weight: bold;
 		font-size:1.25em;
 	}   
+	
 	section {text-align:center;}
    
     #mobile_menu {
@@ -431,7 +432,7 @@ section{100%;}
 	#specialTable tr td:first-child {
 		font-weight: bold;
 		font-size:101%;
-		font-family: Verdana, Arial, Helvetica, sans-serif;
+		
 	}
 	header h2 {
 		font-size: 1.375em;
@@ -439,7 +440,7 @@ section{100%;}
 	header h3 {
 		font-size: .875em;
 	}
-	td#main_box { -webkit-text-size-adjust:100% }    
+	   
 }
 
 /* decrease font sizes to prevent rolling */
@@ -447,7 +448,7 @@ section{100%;}
     #specialTable tr td:first-child {
 		font-weight: bold;
 		font-size:.9375em;
-		font-family: Verdana, Arial, Helvetica, sans-serif;
+		
 	}
 	header h2, section h1, aside h2 {
         font-size: .9375em;
@@ -466,6 +467,7 @@ section{100%;}
     }
 	section{width:96%;font-size:.9375em;}
 	body{width:96%;font-size:.9375em;}
-	td#main_box { -webkit-text-size-adjust:100% }    
+	.
+   	
 }
 
