@@ -435,6 +435,7 @@ section{100%;}
 	header h3 {
 		font-size: .875em;
 	}
+	td#main_box { -webkit-text-size-adjust:100% }    
 }
 
 /* decrease font sizes to prevent rolling */
@@ -460,5 +461,6 @@ section{100%;}
     }
 	section{width:96%;font-size:.9375em;}
 	body{width:96%;font-size:.9375em;}
+	td#main_box { -webkit-text-size-adjust:100% }    
 }
 
