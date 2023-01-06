@@ -431,7 +431,7 @@ section{100%;}
 	#specialTable tr td:first-child {
 		font-weight: bold;
 		font-size:101%;
-		font-family: 'Open Sans', sans-serif;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
 	}
 	header h2 {
 		font-size: 1.375em;
@@ -447,7 +447,7 @@ section{100%;}
     #specialTable tr td:first-child {
 		font-weight: bold;
 		font-size:.9375em;
-		
+		font-family: Verdana, Arial, Helvetica, sans-serif;
 	}
 	header h2, section h1, aside h2 {
         font-size: .9375em;
