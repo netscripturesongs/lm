@@ -7,6 +7,7 @@ html {
         /*background:linear-gradient(0.25turn,#005fb2,#ffffff,#e69c23);*/
         /* the audio page will use the 77738b,  be sure to put back */
         background:#888c74;
+		text-rendering: optimizeLegibility;
         /*background:#3b978a;*/
     color: #900310; }
 
@@ -17,6 +18,7 @@ body {
 	max-width: 1204px;                /* maximum width of page */
 	
 	margin: 0 auto;
+	text-rendering: optimizeLegibility;
 	 padding: .25em;    
 	
 }
