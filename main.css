@@ -438,13 +438,15 @@ section{100%;}
 	}   
 	
 	section {text-align:center;}
-   
-    #nav_menu {
-        display: none;
-    }
-    #mobile_menu {
-        display: block;
-    }
+   #nav_menu ul li {
+	width: 38%;       font-size:.9em;                  /*Nav size for screens > 771 px*/
+}
+#nav_menu ul li a {
+	text-align: justify;
+	display: block;
+	padding: .2em 0;
+}
+    
     .slicknav_menu {
         background-color: #888c74 !important;	
     }
