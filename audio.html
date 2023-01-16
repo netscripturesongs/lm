@@ -5,13 +5,23 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="slicknav.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="jquery.slicknav.min.js"></script>
+	<script type="text/javascript">
+	 $(document).ready(function(){
+		$('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+    });
+    </script>
     <meta name="description" content="This is the Net Scripture Songs website's Audio page. It contains audio scripture songs.">
   </head>
   <body>
     <header>
        <h2><img src="FinalTitleTransparent2.png" alt="Net Scripture Songs Logo"></h2>
     </header>
-    <nav id="nav_menu">
+	 <nav id="mobile_menu"></nav>
+	<nav id="nav_menu">
+   
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="video.html">Video</a></li>
@@ -477,8 +487,9 @@
                   </audio>
                 </div>
               </td>
-              <td>Smoke and Fire by Leanet</td>
+              <td>Smoke and Fire by Leanet.  Based on Exodus 13:21-22</td>
               </tr>
+			  
           </table>
         </section>
       </div>

@@ -5,6 +5,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="slicknav.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="jquery.slicknav.min.js"></script>
+	<script type="text/javascript">
+	 $(document).ready(function(){
+		$('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+    });
+    </script>
     <meta name="description" content="This is the Net Scripture Songs website's Odds and Ends page. These are songs Leanet 
       created just for fun. These songs will help people memorize scripture and spark their curiosity 
       to listen to her more personal original songs.">
@@ -13,6 +21,7 @@
     <header>
       <h2><img src="FinalTitleTransparent2.png" alt="Net Scripture Songs Logo"></h2>
     </header>
+	<nav id="mobile_menu"></nav>
     <nav id="nav_menu">
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -26,8 +35,12 @@
 	<h1 class = "oddsh1">Odds & Ends</h1>
     <main>
 	
-      <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fnetscripturesongs.github.io%2Fnetscripturesongs%2Foddsandends.html&layout=button&size=small&width=67&height=20&appId" width="67" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-      <div>
+      
+       <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fnetscripturesongs.github.io%2Fnetscripturesongs%2Foddsandends.html&layout=button&size=small&width=67&height=20&appId" 
+ width="67" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+ 
+ 
+	  <div>
         <p class="odd">"Deep Joy Hum"</p>
         <audio controls="controls" >
           <source src="DeepJoyHumbyLeanet.m4a" type="audio/mp4">
