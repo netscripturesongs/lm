@@ -222,7 +222,8 @@ video {
 background:#3b+89a;
 }*/
 .videoplayer {
-	width:100%;
+	
+        max-width: 92%;}
 	height:100%;
 	}
 #flow {display:block;}  	
