@@ -239,7 +239,8 @@ background:#3b+89a;
           justify-content: space-around;}
 .odd {color:#000000;font-weight:bold;}
 .oddsh1 {color:#b7b5c1;font-weight:bold;
-font-family: "Bradley Hand Bold","Segoe Print","Verdana","Arial","Helvetica", sans-serif;
+/*font-family: "Bradley Hand Bold","Segoe Print","Verdana","Arial","Helvetica", sans-serif;/*/
+font-family: "Bradley Hand Bold","Verdana", "Arial","Helvetica", sans-serif;
   text-align:center;
   font-size:295%;
   font-weight:bold;
