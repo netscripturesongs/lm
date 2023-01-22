@@ -192,6 +192,19 @@ video {
            margin-right: auto;
 		   border-collapse:separate;
            border-spacing:15px 15px;
+		   line-height:1.5;
+           }
+.mainp     {color:#000000;font-size: 97%;
+            display: block;
+           margin-left: auto;
+           margin-right: auto;
+		   padding-top:3em;
+		   padding-left:3em;
+		   padding-right:3em;
+           border-spacing:25em 25em;
+		   background-color:#dddce2;
+		   text-align:left;
+		   border: 31px solid silver;
            }
 .center {
   display: block;
@@ -250,6 +263,13 @@ font-family: "Bradley Hand Bold","Segoe Print", sans-serif;
   
   
 }	  
+.h2cl{color:#77738b;font-weight:bold;font-family: "Bradley Hand Bold","Segoe Print", sans-serif;
+/*font-family: "Bradley Hand Bold","Verdana", "Arial","Helvetica", sans-serif;/*/
+  text-align:center;
+  font-size:295%;
+  font-weight:bold;
+  
+  text-shadow: 2px 2px 3px black;};
 /*table*/
 table { border: 1px solid #40407A;
         color:#000000; 
