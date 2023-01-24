@@ -16,7 +16,7 @@ body {
 	/*font-family: "Bradley Hand Bold","Segoe Print","Verdana","Arial","Helvetica", sans-serif;*/
 	font-size: 100%;
 	width:100%;                       /* changed from 990 pixels */
-	max-width: 1204px;                /* maximum width of page */
+	max-width: 1280px;                /* maximum width of page */
 	
 	margin: 0 auto;
 	text-rendering: optimizeLegibility;
@@ -194,16 +194,19 @@ video {
            border-spacing:15px 15px;
 		   line-height:1.5;
            }
-.mainp     {color:#000000;font-size: 97%;
+.mainp     {color:#000000;font-size: 120%;
             display: block;
+			/*font-weight:bold;*/
            margin-left: auto;
+		   line-height:1.3em;
            margin-right: auto;
-		   padding-top:3em;
-		   padding-left:3em;
-		   padding-right:3em;
-           border-spacing:25em 25em;
+		   padding-top:.75em;
+		   padding-left:.75em;
+		   padding-right:.75em;
+		   padding-bottom:.75em;
+           border-spacing:.05em .05em;
 		   background-color:#dddce2;
-		   text-align:left;
+		   
 		   border: 31px solid silver;
            }
 .center {
@@ -263,7 +266,7 @@ font-family: "Bradley Hand Bold","Segoe Print", sans-serif;
   
   
 }	  
-.h2cl{color:#77738b;font-weight:bold;font-family: "Bradley Hand Bold","Segoe Print", sans-serif;
+.h2cl{color:#b7b5c1;font-weight:bold;font-family: "Bradley Hand Bold","Segoe Print", sans-serif;
 /*font-family: "Bradley Hand Bold","Verdana", "Arial","Helvetica", sans-serif;/*/
   text-align:center;
   font-size:295%;
@@ -464,6 +467,7 @@ section{100%;}
 		font-weight: bold;
 		font-size:1.25em;
 	}   
+	.mainp     {color:#000000;font-size: 1.25em;}
 	
 	section {text-align:center;}
    #nav_menu ul li {
