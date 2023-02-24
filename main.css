@@ -255,6 +255,43 @@ background:#3b+89a;
           flex-wrap:nowrap;
           justify-content: space-around;}
 .odd {color:#000000;font-weight:bold;}
+.devoh1{color:#77738b;font-weight:bold;
+font-family: "Bradley Hand Bold","Segoe Print", sans-serif;
+/*font-family: "Bradley Hand Bold","Verdana", "Arial","Helvetica", sans-serif;/*/
+  text-align:center;
+  font-size:185%;
+  font-weight:bold;
+  
+  text-shadow: 2px 2px 3px black;
+  
+  
+}	
+.devoh{color:#000000;font-weight:bold;
+font-family: "Bradley Hand Bold","Segoe Print", sans-serif;
+/*font-family: "Bradley Hand Bold","Verdana", "Arial","Helvetica", sans-serif;/*/
+  text-align:center;
+  font-size:125%;
+  font-weight:bold;
+  
+  
+  
+  
+}	
+.devo     {color:#000000;font-size: 115%;
+            display: block;
+	        font-family:"Sitka Display",Verdana, Arial, Helvetica, sans-serif;
+           margin-left: auto;
+		   background-color: #eeeef0;
+           margin-right: auto;
+		   padding-top:.75em;
+		   padding-left:.75em;
+		   padding-right:.75em;
+		   padding-bottom:.75em;
+           border-spacing:.05em .05em;
+		  
+		  
+		   border: .15em solid #77738b;
+           }
 .oddsh1 {color:#b7b5c1;font-weight:bold;
 font-family: "Bradley Hand Bold","Segoe Print", sans-serif;
 /*font-family: "Bradley Hand Bold","Verdana", "Arial","Helvetica", sans-serif;/*/
