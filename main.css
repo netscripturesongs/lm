@@ -15,6 +15,7 @@ body {
 	font-family: "Bradley Hand Bold","Verdana", "Arial","Helvetica", sans-serif;
 	/*font-family: "Bradley Hand Bold","Segoe Print","Verdana","Arial","Helvetica", sans-serif;*/
 	font-size: 100%;
+	overflow: auto;
 	width:100%;                       /* changed from 990 pixels */
 	max-width: 1280px;                /* maximum width of page */
 	
@@ -118,10 +119,17 @@ header img {
 #nav_menu ul li {
 	width: 30%;                         /*Nav size for screens > 771 px*/
 }
+ .nav__item {
+    margin-bottom: 12px;
+	font-size:150%;
+	font-family: "Bradley Hand Bold","Segoe Print", sans-serif;
+	
+  }
 #nav_menu ul li a {
 	text-align: center;
 	display: block;
-	padding: .7em 0;
+	padding: .7em 0;      
+/*	padding: 1em 1em;*/
 	background-color: #888c74;
 }
 #nav_menu ul li a.current {
@@ -254,7 +262,15 @@ background:#3b+89a;
           flex-direction:column;
           flex-wrap:nowrap;
           justify-content: space-around;}
-.odd {color:#000000;font-weight:bold;}
+
+
+.odd {color:#000000;font-weight:bold;
+ margin: 10px 0;
+  padding: 10px;
+  background-color: #8e937b;
+  
+  border-radius: 15px;
+}
 .devoh1{color:#77738b;font-weight:bold;
 font-family: "Bradley Hand Bold","Segoe Print", sans-serif;
 /*font-family: "Bradley Hand Bold","Verdana", "Arial","Helvetica", sans-serif;/*/
@@ -495,9 +511,9 @@ footer iframe {
     }
 }
 header img {
-width: 100%}
-body {width:100%};
-section{100%;}
+width: 96%}
+body {width:96%};
+section{96%;}
 /* remove floating from section, aside, and header image and display mobile menu */
 @media only screen and (max-width: 771px) {
    #specialTable tr td:first-child {
@@ -510,10 +526,17 @@ section{100%;}
    #nav_menu ul li {
 	width: 38%;       font-size:.9em;                  /*Nav size for screens > 771 px*/
 }
+.nav__item {
+    margin-bottom: 12px;
+	font-size:125%;
+	padding:5em;
+	
+  }
 #nav_menu ul li a {
-	text-align: justify;
+	text-align: center;
 	display: block;
-	padding: .2em 0;
+	padding: .5em 0;
+	
 }
     
     .slicknav_menu {
