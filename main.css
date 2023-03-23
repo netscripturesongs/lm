@@ -120,7 +120,10 @@ header img {
 	width: 30%;                         /*Nav size for screens > 771 px*/
 }
  .nav__item {
-    margin-bottom: 12px;
+    margin-bottom: 2.7em;
+	text-align: left;
+	padding: 2.7em 2.7em;
+	white-space: nowrap;
 	font-size:150%;
 	font-family: "Bradley Hand Bold","Segoe Print", sans-serif;
 	
@@ -128,9 +131,10 @@ header img {
 #nav_menu ul li a {
 	text-align: center;
 	display: block;
-	padding: .7em 0;      
+	padding: .9em 0 .9em   ;    
 /*	padding: 1em 1em;*/
 	background-color: #888c74;
+	/*white-space: nowrap;*/
 }
 #nav_menu ul li a.current {
 	color: #b7b5c1 !important;
@@ -529,7 +533,7 @@ section{96%;}
 .nav__item {
     margin-bottom: 12px;
 	font-size:125%;
-	padding:5em;
+	padding:7em .7em;
 	
   }
 #nav_menu ul li a {
